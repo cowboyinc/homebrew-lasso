@@ -1,28 +1,28 @@
 class Lasso < Formula
   desc "Interactive terminal console for the Cowboy blockchain"
   homepage "https://github.com/cowboyinc/lasso"
-  version "0.3.4"
+  version "0.3.5"
   license "MIT"
 
   depends_on "cowboyinc/lasso/cowboy"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.4/lasso-darwin-arm64"
-      sha256 "548e8d2cdccb9cd973dfbee3629117d89f4b1ab3c3cb2c5351c5308bd372a4a1"
+      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.5/lasso-darwin-arm64"
+      sha256 "7b736d6c505e05f63c4e723aafe41e708f153689d6c1c5948d7087ea5fe8e0a0"
     else
-      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.4/lasso-darwin-x64"
-      sha256 "c9014ed3fd963f03efe1789b97992d17ced0a2b72dc39ac4e1ef5c7ad697f023"
+      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.5/lasso-darwin-x64"
+      sha256 "e03754e3a6b3dce727f8067993ad1994b5741e446969604b443f48309b19ed62"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.4/lasso-linux-arm64"
-      sha256 "39f09d6b626b9d66bf46d299693c013d854fcf455baa6e767580ad72c4556512"
+      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.5/lasso-linux-arm64"
+      sha256 "c963f1372fa2f94065c8f244d7e3c5a6c93a73f8af80c830385e53e89fa131da"
     else
-      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.4/lasso-linux-x64"
-      sha256 "88d316c2e33dd4206b92e059266ee63dae5b2f64c8d0188a999c5bb84a513eac"
+      url "https://github.com/cowboyinc/lasso/releases/download/v0.3.5/lasso-linux-x64"
+      sha256 "bfb1b9808509a9df86f73770fac6de231bfd46edcf91c9bf4c7951fbec99c48a"
     end
   end
 
