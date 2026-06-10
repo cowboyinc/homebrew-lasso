@@ -6,9 +6,11 @@ terminal console for the Cowboy blockchain.
 ## Install
 
 ```bash
-brew tap cowboyinc/lasso
-brew install lasso
+brew install cowboyinc/lasso/lasso
 ```
+
+The fully-qualified name matters: plain `brew install lasso` resolves to an
+unrelated SAML library in homebrew-core.
 
 Then run `lasso` and follow the `/walkthrough`.
 
